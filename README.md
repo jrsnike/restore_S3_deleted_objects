@@ -43,7 +43,6 @@ There are a few options for running this script. We describe two possibilities b
    Run the desired script. Example:
    cd restore_s3_deleted_objects/
    python3 restore_s3_objects_us.py
-   
 
 Costs:
 This script executes requests made to Amazon S3 buckets and files, such as GET, LIST, and PUT. Costs will vary depending on how many objects and buckets a customer is restoring. 
