@@ -27,21 +27,21 @@ There are a few options for running this script. We describe two possibilities b
 1) If you have access to the AWS console.
    Access the AWS Cloud Shell - For more information about AWS Cloud Shell: https://aws.amazon.com/cloudshell/
 
-   Clone this GitHub repository.
+   Clone this GitHub repository.  
    git clone https://github.com/jrsnike/restore_S3_deleted_objects
 
-   Run the desired script. Example:
-   cd restore_s3_deleted_objects/
-   python3 restore_s3_objects_us.py
+   Run the desired script. Example:  
+   cd restore_s3_deleted_objects/  
+   python3 restore_s3_objects_us.py  
 
-2) If you have access key and secret key credentials:
+2) If you have access key and secret key credentials:  
    If you have the AWS CLI configured, you can ignore this. Otherwise, configure the AWS CLI in a command-line tool/terminal.
 
-   Clone this GitHub repository.
+   Clone this GitHub repository.  
    git clone https://github.com/jrsnike/restore_S3_deleted_objects
 
-   Run the desired script. Example:
-   cd restore_s3_deleted_objects/
+   Run the desired script. Example:  
+   cd restore_s3_deleted_objects/  
    python3 restore_s3_objects_us.py
 
 **Costs**  
