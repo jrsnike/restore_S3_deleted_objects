@@ -24,10 +24,10 @@ How to run this script
 To run this Python 3 script, you will need a user with the permissions described in this IAM policy.
 There are a few options for running this script. We describe two possibilities below. Choose the one that best suits your needs:
 
-1) If you have access to the AWS console
+1) If you have access to the AWS console.
    Access the AWS Cloud Shell - For more information about AWS Cloud Shell: https://aws.amazon.com/cloudshell/
 
-   Clone this GitHub repository
+   Clone this GitHub repository.
    git clone https://github.com/jrsnike/restore_S3_deleted_objects
 
    Run the desired script. Example:
@@ -37,7 +37,7 @@ There are a few options for running this script. We describe two possibilities b
 2) If you have access key and secret key credentials:
    If you have the AWS CLI configured, you can ignore this. Otherwise, configure the AWS CLI in a command-line tool/terminal.
 
-   Clone this GitHub repository
+   Clone this GitHub repository.
    git clone https://github.com/jrsnike/restore_S3_deleted_objects
 
    Run the desired script. Example:
@@ -45,6 +45,6 @@ There are a few options for running this script. We describe two possibilities b
    python3 restore_s3_objects_us.py
    
 
-Costs
+Costs:
 This script executes requests made to Amazon S3 buckets and files, such as GET, LIST, and PUT. Costs will vary depending on how many objects and buckets a customer is restoring. 
 For more details on Amazon S3 pricing, take a look at the Amazon S3 pricing page
