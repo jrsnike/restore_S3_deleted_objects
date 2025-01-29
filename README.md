@@ -15,12 +15,14 @@ Restore files from a specific bucket:
 This script loops through all files in a specific bucket, or a folder within that bucket, in an AWS account. If the files were deleted after a specific point in time (point_of_restore), the script restores the files to their most recent state.
 
 Prerequisites
+
 Attention! For this script to work, versioning must have been enabled on the Amazon S3 bucket before files were deleted.
 Edit the chosen script to set the BUCKET_NAME variable,
 MAX_BATCH_SIZE and START_DATE. It should represent the date and time of the incident. Be sure to round down so you don't miss any files.
 Then, during execution, you will be asked to enter the PREFIX (Folder) in the bucket to be restored. If left blank, it scrolls through the entire bucket.
 
 How to run this script
+
 To run this Python 3 script, you will need a user with the permissions described in this IAM policy.
 There are a few options for running this script. We describe two possibilities below. Choose the one that best suits your needs:
 
@@ -45,5 +47,6 @@ There are a few options for running this script. We describe two possibilities b
    python3 restore_s3_objects_us.py
 
 Costs:
+
 This script executes requests made to Amazon S3 buckets and files, such as GET, LIST, and PUT. Costs will vary depending on how many objects and buckets a customer is restoring. 
 For more details on Amazon S3 pricing, take a look at the Amazon S3 pricing page
